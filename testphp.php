@@ -32,9 +32,10 @@ foreach ($arr as $yarrr)
   echo "array value:\" $yarrr".PHP_EOL;
 }
 echo "C style:\n";
-for ($i = 0;$i < count($arr);$i++)
+
+for ($i = 0; $i < count($arr);$i++)
 {
-  echo "array value: ".$arr[$i].PHP_EOL;
+ // echo "array value: ".$arr[$i].PHP_EOL;
 }
 
 $ret = thaFunc("steve");
